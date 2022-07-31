@@ -33,14 +33,25 @@ body,
 }
 
 body {
-  background: #1e1f24;
+  background: radial-gradient(#2d2f44, #02101a) repeat;
   color: #fff;
   font-weight: 400;
   font-size: 1em;
-  font-family: "Raleway", Arial, sans-serif;
+  /* font-family: "Raleway", Arial, sans-serif; */
+  font-family: "Open Sans", sans-serif;
   overflow: hidden;
   overflow-y: scroll;
   min-height: 590px;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  /* background-color: #b61924; */
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 a {
